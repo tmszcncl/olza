@@ -1,0 +1,6 @@
+module Olza
+  class Error < StandardError
+  end
+
+  def self.average: ([Float | Integer]) -> Float
+end
